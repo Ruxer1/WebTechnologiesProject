@@ -13,10 +13,14 @@
     <p>Bu web sitesinde kendimi ve memleketimi tanıtıyorum.</p>
   </header>
 
+
   <main class="container mt-4">
+      <a href="cv.php">CV SAYFASI</a> <br>
+      <a href="ilgi-alanlarim.php">İLGİ ALANLARIM</a>
+
     <section>
       <h2>Kısaca Ben Kimim?</h2>
-      <p>Ben Ömer Faruk Kaymas. Sakarya Üniversitesi Bilgisayar Mühendisliği bölümünde örenim görmekteyim. Sakaryalıyım ve Sakarya'da yaşamaktayım.</p>
+      <p>Ben <b>Ömer Faruk Kaymas</b>. Sakarya Üniversitesi Bilgisayar Mühendisliği bölümünde örenim görmekteyim. Sakaryalıyım ve Sakarya'da yaşamaktayım.</p>
     </section>
 
     <section>
