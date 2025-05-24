@@ -15,6 +15,7 @@
 
   <main class="container mt-4">
   <a href="index.php">ANA SAYFA</a>
+  <a href="cv.php">CV</a>
 
     <?php
 $url = "https://www.scorebat.com/video-api/v3/";
