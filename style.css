@@ -5,6 +5,12 @@
   color: white;
 }
 
+.image-etkinlik {
+  border:4px solid darkslategray; 
+  padding:10px;
+  height: 250px;
+}
+
 .navbar {
   width: 100%;
   display: flex;
@@ -12,7 +18,7 @@
 }
 
 .navbar ul {
-  max-width: 926px;
+  max-width: 710px;
   width: 100%;
   margin: 0 auto;
   list-style: none;
