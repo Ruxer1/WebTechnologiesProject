@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Şehrim - Sakarya</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="text-center p-4 bg-dark text-white">
+    <h1>Memleketim Sakarya</h1>
+    <p>Doğasıyla, kültürüyle, tarihiyle Sakarya</p>
+  </header>
+
+  <main class="container mt-4">
+
+    <div id="sakaryaSlider" class="carousel slide mb-4" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="icerikler/sapanca.php">
+            <img src="images/sapanca.jpg" class="d-block w-100 rounded" alt="Sapanca Gölü">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="icerikler/karasu.php">
+            <img src="images/karasu.jpg" class="d-block w-100 rounded" alt="Karasu Plajı">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="icerikler/acarlar.php">
+            <img src="images/acarlar.jpg" class="d-block w-100 rounded" alt="Acarlar Longozu">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="icerikler/sakarya-meydan.php">
+            <img src="images/meydan.jpg" class="d-block w-100 rounded" alt="Demokrasi Meydanı">
+          </a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#sakaryaSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#sakaryaSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <section>
+      <h2>Sakarya Hakkında</h2>
+      <p>Sakarya, Marmara Bölgesi'nin doğusunda yer alan ve yeşiliyle meşhur bir ildir. Hem sanayi hem de doğal güzellikleriyle öne çıkar. Sakarya Nehri, Sapanca Gölü, Karasu sahilleri ve yaylaları ile dikkat çeker.</p>
+    </section>
+
+    <section>
+      <h3>Nüfusu</h3>
+      <p>Sakarya'nın nüfusu yaklaşık 1 milyon 60 bin civarındadır (2024 verileri).</p>
+    </section>
+
+    <section>
+      <h3>Gezilecek Yerler</h3>
+      <ul>
+        <li><b>Sapanca Gölü:</b> Doğal güzelliği ile bilinen göl çevresinde yürüyüş yolları ve kafeler bulunur.</li>
+        <li><b>Acarlar Longozu:</b> Türkiye'nin nadir subasar ormanlarından biridir.</li>
+        <li><b>Karasu Plajı:</b> Uzun sahiliyle Marmara'nın önemli deniz turizmi noktalarındandır.</li>
+        <li><b>Sakarya Demokrasi Meydanı:</b> Şehrin merkezi buluşma noktalarından biridir.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="text-center bg-light p-3 mt-4">
+    <p>© 2025 - Ömer Faruk Kaymas tarafından hazırlandı</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
