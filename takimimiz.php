@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takımımız – Sakaryaspor</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="text-center p-4 bg-success text-white">
+    <h1>Takımımız: Sakaryaspor</h1>
+  </header>
+
+  <main class="container mt-4">
+    
+    <section class="my-4 text-center">
+      <img src="images/Sakaryaspor_Logosu.png" alt="Sakaryaspor Logosu" class="img-fluid" width="200">
+    </section>
+
+    <section>
+      <h2>Kulüp Hakkında</h2>
+      <p><strong>Sakaryaspor</strong>, 1965 yılında Adapazarı merkezli olarak kurulan ve yeşil-siyah renklere sahip profesyonel bir futbol kulübüdür. Kulüp, zaman içinde birçok kez Süper Lig, 1. Lig ve 2. Lig'de mücadele etmiştir.</p>
+    </section>
+
+    <section>
+      <h2>Stadyum</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/sakarya-stadyum.jpg" alt="Sakarya Atatürk Stadyumu" class="img-fluid rounded" width="750">
+        </div>
+        <div class="col-md-6">
+          <p>Takım, maçlarını 2021 yılında açılan <strong>Yeni Sakarya Atatürk Stadyumu</strong>’nda oynamaktadır. Stadyum yaklaşık 28.000 kişi kapasitelidir ve modern mimarisiyle dikkat çeker.</p>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section>
+      <h2>Taraftar Grubu – Tatangalar</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/tatangalar.jpg" alt="Sakarya Tatangaları" class="img-fluid rounded" width="750">
+        </div>
+        <div class="col-md-6">
+          <p><strong>Tatangalar</strong>, Sakaryaspor'un efsanevi taraftar grubudur. Türkiye'nin en tutkulu taraftar topluluklarından biri olarak bilinir. İç saha ve deplasman fark etmeksizin her maçta takımlarını coşkuyla desteklerler.</p>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section>
+      <h2>Başarılar</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/kupalar.jpg" alt="Sakarya Kupa" class="img-fluid rounded" width="750">
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>Türkiye Kupası Şampiyonu – 1988</li>
+            <li>1. Lig Şampiyonluğu – 1998, 2004, 2006</li>
+            <li>Türkiye'nin Süper Lig'e en çok futbolcu gönderen kulüplerinden biri</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section>
+      <h2>Yetiştirdiği Ünlü Futbolcular</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/futbolcular.jpg" alt="Sakaryaspor Futbolcuları" class="img-fluid rounded" width="750">
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li><strong>Hakan Şükür</strong> – Galatasaray ve Milli Takım efsanesi</li>
+            <li><strong>Tuncay Şanlı</strong> – Fenerbahçe, Middlesbrough ve Milli Takım</li>
+            <li><strong>Aykut Kocaman</strong> – Fenerbahçe eski teknik direktörü ve futbolcusu</li>
+            <li><strong>Oğuz Çetin</strong> – Teknik direktör ve eski futbolcu</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center bg-light p-3 mt-4">
+    <p>© 2025 - Ömer Faruk Kaymas tarafından hazırlandı</p>
+  </footer>
+</body>
+</html>
