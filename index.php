@@ -15,8 +15,10 @@
 
 
   <main class="container mt-4">
-      <a href="cv.php">CV SAYFASI</a> <br>
-      <a href="ilgi-alanlarim.php">İLGİ ALANLARIM</a>
+
+      <a href="login.php">Kullanıcı Girişi</a> <br>
+      <a href="cv.php">CV Sayfası</a> <br>
+      <a href="ilgi-alanlarim.php">İlgi Alanlarım</a>
 
     <section>
       <h2>Kısaca Ben Kimim?</h2>

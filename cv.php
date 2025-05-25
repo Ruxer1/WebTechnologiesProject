@@ -9,20 +9,60 @@
 </head>
 <body>
   <header class="text-center p-4 bg-dark text-white">
-    <h1>CV SAYFASI</h1>
-    <p>Bu web sitesinde kendimi ve memleketimi tanıtıyorum.</p>
+    <h1>CV Sayfası</h1>
+    <p>Özgeçmiş</p>
   </header>
 
-  <main class="container mt-4">
-  <a href="index.php">ANA SAYFA</a>
+    <main class="container mt-4">
+      
+      <a href="index.php">Ana Sayfa</a> <br>
+      <a href="login.php">Kullanıcı Girişi</a> <br>
+      <a href="ilgi-alanlarim.php">İlgi Alanlarım</a>
 
     <section>
-      <h2>Faydalı Linkler</h2>
+      <h2>Hakkımda</h2>
+      <p>Ben Ömer Faruk Kaymas, 15 Eylül 2005 Sakarya doğumluyum.</p>
+    </section>
+
+    <section>
+      <h2>Beceriler</h2>
       <ul>
-        <li><a href="https://spor.sakarya.edu.tr/tr/icerik/12357/57644/spor-tesislerimiz" target="_blank">Sakarya Üniversitesi Spor Tesisleri</a></li>
-        <li><a href="https://www.sahanerede.com/halisahalar/sakarya-halisahalari" target="_blank">Sakarya'daki Halısahalar</a></li>
-        <li><a href="https://www.sakarya.bel.tr/tr/HizmetRehberi/Detail/53" target="_blank">SBB Doğa Yürüyüşleri</a></li>
+         <li>HTML, PHP, CSS, JavaScript</li>
+         <li>C#, Windows Forms</li>
+         <li>C++</li>
+         <li>Lua</li>
       </ul>
+    </section>
+
+    <section>
+      <h2>Eğitim Bilgileri</h2>
+
+      <article>
+        <h3>Lisans</h3>
+        <p><strong>Üniversite:</strong> Sakarya Üniversitesi</p>
+        <p><strong>Bölüm:</strong> Bilgisayar Mühendisliği</p>
+        <p><strong>Yıllar:</strong> 2024 - (Devam Etkmekte)</p>
+      </article>
+
+      <article>
+        <h3>Lise</h3>
+        <p><strong>Okul:</strong> Sakarya Fen Lisesi</p>
+        <p><strong>Alan:</strong> Sayısal</p>
+        <p><strong>Yıllar:</strong> 2019 - 2023</p>
+      </article>
+
+      <article>
+        <h3>Ortaokul</h3>
+        <p><strong>Okul:</strong> Sakarya Özel Mefkûre Ortaokulu</p>
+        <p><strong>Yıllar:</strong> 2015 - 2019</p>
+      </article>
+
+      <article>
+        <h3>İlkokul</h3>
+        <p><strong>Okul:</strong> Sakarya Atatürk İlkokulu</p>
+        <p><strong>Yıllar:</strong> 2011 - 2015</p>
+      </article>
+
     </section>
   </main>
 

@@ -10,12 +10,14 @@
 <body>
   <header class="text-center p-4 bg-dark text-white">
     <h1>İlgi Alanlarım</h1>
-    <p>Bu web sitesinde kendimi ve memleketimi tanıtıyorum.</p>
+    <p>İlgi alanlarımdan biri hakkında paylaşım.</p>
   </header>
 
   <main class="container mt-4">
-  <a href="index.php">ANA SAYFA</a>
-  <a href="cv.php">CV</a>
+
+  <a href="index.php">Ana Sayfa</a> <br>
+  <a href="login.php">Kullanıcı Girişi</a> <br>
+  <a href="cv.php">CV Sayfası</a>
 
     <?php
 $url = "https://www.scorebat.com/video-api/v3/";

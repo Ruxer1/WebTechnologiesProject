@@ -16,7 +16,10 @@
     </header>
 
     <main class="container mt-4">
-        <a href="index.php">ANA SAYFA</a>
+
+        <a href="index.php">Ana Sayfa</a> <br>
+        <a href="cv.php">CV Sayfası</a> <br>
+        <a href="ilgi-alanlarim.php">İlgi Alanlarım</a>
 
         <?php
         $giris = false;
