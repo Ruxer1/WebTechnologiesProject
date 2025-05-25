@@ -41,7 +41,7 @@ if (isset($data['response'])) {
     $maclar = $data['response'];
 
     foreach ($maclar as $mac) {
-        if (strpos($mac['title'], 'Galatasaray') !== false) {
+        if (strpos($mac['title'], 'Barcelona') !== false) {
             $title = $mac['title'];
             $tarih = date("d.m.Y H:i", strtotime($mac['date']));
             $competition = $mac['competition'];
