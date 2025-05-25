@@ -7,10 +7,23 @@
   <title>İletişim Sonucu</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
-  <header class="text-center p-4 bg-dark text-white">
+  <header class="baslik">
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.php"><i class="fa-solid fa-house"></i> Anasayfa</a></li>
+        <li><a href="cv.html"><i class="fa-solid fa-circle-user"></i> CV Sayfası</a></li>
+        <li><a href="ilgi-alanlarim.php"><i class="fa-solid fa-location-dot"></i> İlgi Alanlarım</a></li>
+        <li><a href="sehrim.html"><i class="fa-solid fa-city"></i> Şehrim</a></li>
+        <li><a href="takimimiz.html"><i class="fa-solid fa-futbol"></i> Takımımız</a></li>
+        <li><a href="iletisim.php"><i class="fa-solid fa-phone"></i> İletişim</a></li>
+        <li><a href="login.php"><i class="fa-solid fa-right-to-bracket"></i> Giriş</a></li>
+      </ul>
+    </nav> <br>
+    
     <h1>İletişim Formu Gönderildi</h1>
   </header>
 
