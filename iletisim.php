@@ -16,7 +16,7 @@
   <header class="baslik">
     <nav class="navbar">
       <ul>
-        <li><a href="index.php"><i class="fa-solid fa-house"></i> Anasayfa</a></li>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i> Anasayfa</a></li>
         <li><a href="cv.html"><i class="fa-solid fa-circle-user"></i> CV Sayfası</a></li>
         <li><a href="ilgi-alanlarim.php"><i class="fa-solid fa-location-dot"></i> İlgi Alanlarım</a></li>
         <li><a href="sehrim.html"><i class="fa-solid fa-city"></i> Şehrim</a></li>
