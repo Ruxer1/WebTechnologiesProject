@@ -25,7 +25,7 @@
       </ul>
     </nav> <br>
 
-        <h1>GİRİŞ</h1>
+        <h1>Giriş</h1>
     </header>
 
     <main class="container mt-4">
@@ -37,16 +37,16 @@
             if(filter_var( $_POST["email"], FILTER_VALIDATE_EMAIL)) {
                 $kullanici_adi = explode('@', $_POST["email"])[0];
             if($_POST["sifre"] == $kullanici_adi) {
-                echo "giriş başarılı, hoş geldin: " .$kullanici_adi;
+                echo "Giriş Başarılı! Hoş Geldin " .$kullanici_adi;
         $giris = true;
 
             }
             else  {
-                $hata = "giriş başarısız, hatalı bilgi"; 
+                $hata = "Giriş Başarısız, Hatalı Bilgi!"; 
             }
             }
             else {
-                $hata = "geçersiz email adresi!";
+                $hata = "Geçersiz Email Adresi!";
             }
         }
 
@@ -56,8 +56,10 @@
         if(!$giris ) {
         ?>
         <form action="login.php" method="post">
-            <input name="email" type="email" class="form-control" placeholder="Email adresi" required>
-            <input name="sifre" type="password" class="form-control" placeholder="Şifre" required>
+            <label class="form-label">E-Mail</label>
+            <input name="email" type="email" class="form-control" required> <br>
+            <label class="form-label">Şifre</label>
+            <input name="sifre" type="password" class="form-control" required> <br>
             <button class="btn btn-primary">Giriş yap</button>
         </form>
         <?php } ?>
